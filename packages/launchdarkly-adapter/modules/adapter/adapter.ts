@@ -56,6 +56,7 @@ const didFlagChange = (flagName: FlagName, nextFlagValue: FlagVariation) => {
 };
 
 const getIsReady = (): boolean => adapterState.isReady;
+const getClient = (): LDClient | undefined => adapterState.client;
 
 const normalizeFlag = (flagName: FlagName, flagValue?: FlagVariation): Flag => [
   camelCase(flagName),
@@ -277,5 +278,6 @@ export default {
   reconfigure,
   getFlag,
   getIsReady,
+  getClient,
   updateUserContext,
 };
