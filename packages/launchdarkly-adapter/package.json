@@ -1,6 +1,6 @@
 {
   "name": "@timothyjoh/launchdarkly-adapter",
-  "version": "2.8.6",
+  "version": "2.8.7",
   "description": "A adapter around the LaunchDarkly client for flipflop",
   "main": "dist/@timothyjoh-launchdarkly-adapter.cjs.js",
   "module": "dist/@timothyjoh-launchdarkly-adapter.es.js",
@@ -37,6 +37,8 @@
   },
   "dependencies": {
     "@babel/runtime": "7.6.2",
+    "@types/lodash.camelcase": "^4.3.6",
+    "@types/lodash.isequal": "^4.5.5",
     "debounce-fn": "3.0.1",
     "deepmerge": "4.0.0",
     "launchdarkly-js-client-sdk": "2.13.0",
