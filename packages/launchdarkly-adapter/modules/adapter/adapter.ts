@@ -9,14 +9,14 @@ import {
 } from '@flopflip/types';
 import merge from 'deepmerge';
 import warning from 'tiny-warning';
-import isEqual from 'lodash/isEqual';
+import isEqual from 'lodash.isequal';
 import debounce from 'debounce-fn';
 import {
   initialize as initializeLaunchDarklyClient,
   LDUser,
   LDClient,
 } from 'launchdarkly-js-client-sdk';
-import camelCase from 'lodash/camelCase';
+import camelCase from 'lodash.camelcase';
 
 type ClientOptions = {
   fetchGoals?: boolean;

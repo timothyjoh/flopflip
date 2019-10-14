@@ -40,7 +40,8 @@
     "debounce-fn": "3.0.1",
     "deepmerge": "4.0.0",
     "launchdarkly-js-client-sdk": "2.13.0",
-    "lodash": "4.17.15",
+    "lodash.camelcase": "^4.3.0",
+    "lodash.isequal": "^4.5.0",
     "tiny-warning": "1.0.3"
   },
   "keywords": [
